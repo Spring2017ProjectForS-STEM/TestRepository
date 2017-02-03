@@ -7,6 +7,7 @@ git clone https://github.com/Spring2017ProjectForS-STEM/TestRepository
 cd TestRepository
 git status
 git add WriteYourNameHere
+git add .
 git commit -m "added a new name"
 git log
 git remote add origin https://github.com/Spring2017ProjectForS-STEM/TestRepository
