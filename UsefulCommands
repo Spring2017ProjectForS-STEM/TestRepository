@@ -1,0 +1,14 @@
+git config --global user.name "NoahCarter1"
+git config --global user.email "carterns@goldmail.etsu.edu"
+pwd
+cd Desktop
+pwd
+git clone https://github.com/Spring2017ProjectForS-STEM/TestRepository
+cd TestRepository
+git status
+git add WriteYourNameHere
+git commit -m "added a new name"
+git log
+git remote add origin https://github.com/Spring2017ProjectForS-STEM/TestRepository
+git push -u origin master
+git pull origin master
